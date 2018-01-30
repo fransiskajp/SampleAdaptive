@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.user.sample2.DetailActivity">
+        <ImageView
+            android:id="@+id/mwimagesDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/titlesDetail"
+            style="@style/WaterDetailTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_below="@id/mwimagesDetail"
+            android:text="@string/name"/>
+
+        <TextView
+            android:id="@+id/subTitleDetail"
+            style="@style/WaterDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_below="@id/titlesDetail"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id venenatis nibh, quis lobortis sem. Nullam ut nibh faucibus, euismod dolor vel, efficitur leo. Aliquam felis lectus, euismod eget scelerisque non, faucibus a enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec consectetur leo. Quisque odio sapien, placerat sed sapien a, dapibus facilisis metus. Sed mauris risus, tincidunt quis tortor vel, aliquet ultricies turpis. Nullam mollis ex porttitor nisl semper efficitur. Donec semper vitae nisl eget semper. Phasellus nec sapien a metus pulvinar mollis eget non nisi."/>
+    </RelativeLayout>
+</ScrollView>

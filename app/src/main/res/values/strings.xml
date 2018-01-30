@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Sample2</string>
+    <string name="name">Name</string>
+    <string name="info">Info</string>
+
+    <string-array name="mw_names">
+        <item>Aqua</item>
+        <item>Pristine</item>
+        <item>LeMinerale</item>
+        <item>Cleo</item>
+        <item>Club</item>
+        <item>Equil</item>
+        <item>Vit</item>
+        <item>Amidis</item>
+        <item>Pure Life Nestle</item>
+        <item>Ades</item>
+        <item>Evian</item>
+    </string-array>
+
+    <string-array name="mw_info">
+        <item>Ini adalah air minum merk AQUA</item>
+        <item>Ini adalah air minum merk Pristine</item>
+        <item>Ini adalah air minum merk LeMinerale</item>
+        <item>Ini adalah air minum merk Cleo</item>
+        <item>Ini adalah air minum merk Club</item>
+        <item>Ini adalah air minum merk Equil</item>
+        <item>Ini adalah air minum merk Vit</item>
+        <item>Ini adalah air minum merk Amidis</item>
+        <item>Ini adalah air minum merk Pure Life Nestle</item>
+        <item>Ini adalah air minum merk Ades</item>
+        <item>Ini adalah air minum merk Evian</item>
+
+    </string-array>
+
+    <array name="mw_images">
+        <item>@drawable/aqua</item>
+        <item>@drawable/pristine</item>
+        <item>@drawable/leminerale</item>
+        <item>@drawable/cleo</item>
+        <item>@drawable/club</item>
+        <item>@drawable/equil</item>
+        <item>@drawable/vit</item>
+        <item>@drawable/amidis</item>
+        <item>@drawable/nestle</item>
+        <item>@drawable/ades</item>
+        <item>@drawable/evian</item>
+
+    </array>
+</resources>
